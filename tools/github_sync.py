@@ -232,8 +232,19 @@ def sync_to_github(
     message = message or "Sync LeetCode archive"
 
     ensure_git_repo(branch, commands)
-    committed = commit_changes(message, commands)
     full_name, repo_url, created_remote = ensure_remote(repo, visibility, description, commands)
+    result = SyncResult(
+        repo=full_name,
+        repo_url=repo_url,
+        branch=branch,
+        created_remote=created_remote,
+        committed=False,
+        pushed=False,
+        commands=commands,
+    )
+    save_sync_config(result, visibility)
+
+    committed = commit_changes(message, commands)
 
     if git_has_head(commands):
         commands.append(run_command(["git", "push", "-u", "origin", branch], check=True))
@@ -241,15 +252,8 @@ def sync_to_github(
     else:
         pushed = False
 
-    result = SyncResult(
-        repo=full_name,
-        repo_url=repo_url,
-        branch=branch,
-        created_remote=created_remote,
-        committed=committed,
-        pushed=pushed,
-        commands=commands,
-    )
+    result.committed = committed
+    result.pushed = pushed
     save_sync_config(result, visibility)
     return result
 
@@ -299,4 +303,3 @@ def main(argv: list[str] | None = None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
