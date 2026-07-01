@@ -254,7 +254,6 @@ def sync_to_github(
 
     result.committed = committed
     result.pushed = pushed
-    save_sync_config(result, visibility)
     return result
 
 
