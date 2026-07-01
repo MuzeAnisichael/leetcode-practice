@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "title": "Two Sum",
+  "slug": "two-sum",
+  "difficulty": "Easy",
+  "url": "https://leetcode.com/problems/two-sum/",
+  "plan": "leetcode-hot-100",
+  "category": "hash",
+  "tags": [
+    "Array",
+    "Hash Table"
+  ],
+  "status": "solved",
+  "language": "python3",
+  "files": {
+    "solution": "solution.py",
+    "explanation": "explanation.md",
+    "cases": "cases.txt"
+  },
+  "created_at": "2026-07-01",
+  "updated_at": "2026-07-01",
+  "notes": ""
+}

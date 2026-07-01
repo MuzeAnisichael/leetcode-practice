@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "_template",
+    "name": "计划模板",
+    "description": "用于复制或参考的新计划目录模板，不放真实题解。",
+    "status": "template"
+  },
+  {
+    "slug": "leetcode-hot-100",
+    "name": "LeetCode 热题 100",
+    "description": "按 LeetCode 热题 100 练习常见面试题。",
+    "status": "active"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Two Sum",
+    "slug": "two-sum",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/two-sum/",
+    "plans": [
+      "leetcode-hot-100"
+    ],
+    "categories": [
+      "hash"
+    ],
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "records": [
+      {
+        "plan": "leetcode-hot-100",
+        "category": "hash",
+        "folder": "plans/leetcode-hot-100/hash/0001-two-sum",
+        "solution": "solution.py",
+        "explanation": "explanation.md",
+        "status": "solved"
+      }
+    ],
+    "notes": ""
+  }
+]

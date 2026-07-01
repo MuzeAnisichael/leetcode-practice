@@ -1,0 +1,141 @@
+[
+  {
+    "slug": "array",
+    "label": "数组",
+    "aliases": ["数组", "Array"],
+    "description": "数组遍历、原地修改、下标映射和基础线性结构题。"
+  },
+  {
+    "slug": "string",
+    "label": "字符串",
+    "aliases": ["字符串", "String"],
+    "description": "字符串处理、字符统计、格式转换和匹配题。"
+  },
+  {
+    "slug": "hash",
+    "label": "哈希",
+    "aliases": ["哈希", "哈希表", "Hash Table", "HashMap", "Map"],
+    "description": "使用集合、字典、计数器、映射关系降低查找成本。"
+  },
+  {
+    "slug": "two-pointers",
+    "label": "双指针",
+    "aliases": ["双指针", "Two Pointers", "Two Pointer"],
+    "description": "左右指针、快慢指针、对撞指针、同向扫描。"
+  },
+  {
+    "slug": "sliding-window",
+    "label": "滑动窗口",
+    "aliases": ["滑动窗口", "Sliding Window"],
+    "description": "固定窗口或可变窗口维护连续区间状态。"
+  },
+  {
+    "slug": "substring",
+    "label": "子串",
+    "aliases": ["子串", "Substring"],
+    "description": "连续字符串片段、最长/最短子串、覆盖子串等。"
+  },
+  {
+    "slug": "matrix",
+    "label": "矩阵",
+    "aliases": ["矩阵", "Matrix"],
+    "description": "二维数组、坐标移动、行列变换、网格遍历。"
+  },
+  {
+    "slug": "prefix-sum",
+    "label": "前缀和",
+    "aliases": ["前缀和", "Prefix Sum"],
+    "description": "前缀和、差分、区间求和和累计状态。"
+  },
+  {
+    "slug": "stack-queue",
+    "label": "栈与队列",
+    "aliases": ["栈", "队列", "Stack", "Queue", "Monotonic Stack", "Monotonic Queue"],
+    "description": "栈、队列、单调栈、单调队列和表达式处理。"
+  },
+  {
+    "slug": "binary-search",
+    "label": "二分查找",
+    "aliases": ["二分", "二分查找", "Binary Search"],
+    "description": "有序空间查找、答案二分和边界定位。"
+  },
+  {
+    "slug": "linked-list",
+    "label": "链表",
+    "aliases": ["链表", "Linked List"],
+    "description": "链表反转、合并、环检测、指针重连。"
+  },
+  {
+    "slug": "tree",
+    "label": "树",
+    "aliases": ["树", "二叉树", "Tree", "Binary Tree", "BST"],
+    "description": "树遍历、递归分治、二叉搜索树和路径问题。"
+  },
+  {
+    "slug": "graph",
+    "label": "图",
+    "aliases": ["图", "Graph", "BFS", "DFS", "Union Find"],
+    "description": "图遍历、拓扑排序、并查集、最短路等。"
+  },
+  {
+    "slug": "heap-priority-queue",
+    "label": "堆与优先队列",
+    "aliases": ["堆", "优先队列", "Heap", "Priority Queue"],
+    "description": "Top K、动态最值、合并有序流。"
+  },
+  {
+    "slug": "dynamic-programming",
+    "label": "动态规划",
+    "aliases": ["动态规划", "DP", "Dynamic Programming"],
+    "description": "状态定义、状态转移、记忆化搜索和滚动数组。"
+  },
+  {
+    "slug": "backtracking",
+    "label": "回溯",
+    "aliases": ["回溯", "Backtracking"],
+    "description": "排列组合、搜索树、剪枝和撤销选择。"
+  },
+  {
+    "slug": "greedy",
+    "label": "贪心",
+    "aliases": ["贪心", "Greedy"],
+    "description": "局部最优选择、排序策略和区间选择。"
+  },
+  {
+    "slug": "sorting",
+    "label": "排序",
+    "aliases": ["排序", "Sort", "Sorting"],
+    "description": "排序预处理、自定义排序、归并思想。"
+  },
+  {
+    "slug": "math",
+    "label": "数学",
+    "aliases": ["数学", "Math"],
+    "description": "数论、组合、概率、模拟计算和公式推导。"
+  },
+  {
+    "slug": "bit-manipulation",
+    "label": "位运算",
+    "aliases": ["位运算", "Bit Manipulation"],
+    "description": "按位与或异或、掩码、状态压缩。"
+  },
+  {
+    "slug": "intervals",
+    "label": "区间",
+    "aliases": ["区间", "Intervals"],
+    "description": "区间合并、插入、覆盖、扫描线。"
+  },
+  {
+    "slug": "simulation",
+    "label": "模拟",
+    "aliases": ["模拟", "Simulation"],
+    "description": "按题意维护状态、流程推进和边界处理。"
+  },
+  {
+    "slug": "other",
+    "label": "其他",
+    "aliases": ["其他", "Other"],
+    "description": "暂未归类或跨多个类别的题目。"
+  }
+]
+

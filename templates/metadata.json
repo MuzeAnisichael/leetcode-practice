@@ -1,0 +1,21 @@
+{
+  "id": 0,
+  "title": "",
+  "slug": "",
+  "difficulty": "",
+  "url": "",
+  "plan": "",
+  "category": "",
+  "tags": [],
+  "status": "draft",
+  "language": "python",
+  "files": {
+    "solution": "solution.py",
+    "explanation": "explanation.md",
+    "cases": "cases.txt"
+  },
+  "created_at": "",
+  "updated_at": "",
+  "notes": ""
+}
+
